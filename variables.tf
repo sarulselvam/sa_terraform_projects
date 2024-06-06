@@ -10,7 +10,7 @@ variable "region" {
 }
 
 variable "shared_config_files" {
-  description = "AWS profile"
+  description = "AWS config file"
   default     = "shared_config_file"
 }
 
