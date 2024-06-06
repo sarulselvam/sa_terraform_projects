@@ -9,9 +9,9 @@ variable "region" {
   default = "us-east-1"
 }
 
-variable "profile" {
+variable "shared_config_files" {
   description = "AWS profile"
-  #default     = "terraform_user"
+  default     = "shared_config_file"
 }
 
 variable "shared_credentials_files" {
