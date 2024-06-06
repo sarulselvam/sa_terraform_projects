@@ -1,10 +1,12 @@
 variable "key_name" {
   description = "Value of AWS SSH key name"
-  #default     = "sa_test_key"
+  type = string
+  default     = "sa_test_key"
 }
 
 variable "region" {
   description = "AWS region"
+  default = "us-east-1"
 }
 
 variable "profile" {
@@ -14,6 +16,7 @@ variable "profile" {
 
 variable "shared_credentials_files" {
   description = "AWS credentials"
+  default = "shared_credentials_file"
 }
 
 /*variable "access_key" {
