@@ -11,7 +11,7 @@ variable "region" {
 
 variable "profile" {
   description = "AWS profile"
-  default     = "terraform_user"
+  #default     = "terraform_user"
 }
 
 variable "shared_credentials_files" {
